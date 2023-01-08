@@ -1,0 +1,123 @@
+{
+    "location": {
+        "city": "Worcester",
+        "region": "Massachusetts",
+        "woeid": 2523945,
+        "country": "United States",
+        "lat": 42.270679,
+        "long": -71.807877,
+        "timezone_id": "America/New_York"
+    },
+    "current_observation": {
+        "pubDate": 1672643403,
+        "wind": {
+            "chill": 31,
+            "direction": "West",
+            "speed": 9
+        },
+        "atmosphere": {
+            "humidity": 72,
+            "visibility": 10,
+            "pressure": 1014.9
+        },
+        "astronomy": {
+            "sunrise": "7:17 AM",
+            "sunset": "4:28 PM"
+        },
+        "condition": {
+            "temperature": 38,
+            "text": "Clear",
+            "code": 31
+        }
+    },
+    "forecasts": [
+        {
+            "day": "Mon",
+            "date": 1672675200,
+            "high": 47,
+            "low": 33,
+            "text": "Mostly Sunny",
+            "code": 34
+        },
+        {
+            "day": "Tue",
+            "date": 1672761600,
+            "high": 51,
+            "low": 48,
+            "text": "Rain",
+            "code": 12
+        },
+        {
+            "day": "Wed",
+            "date": 1672848000,
+            "high": 58,
+            "low": 37,
+            "text": "Showers",
+            "code": 11
+        },
+        {
+            "day": "Thu",
+            "date": 1672934400,
+            "high": 40,
+            "low": 25,
+            "text": "Snow",
+            "code": 16
+        },
+        {
+            "day": "Fri",
+            "date": 1673020800,
+            "high": 32,
+            "low": 26,
+            "text": "Sleet",
+            "code": 18
+        },
+        {
+            "day": "Sat",
+            "date": 1673107200,
+            "high": 35,
+            "low": 20,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Sun",
+            "date": 1673193600,
+            "high": 35,
+            "low": 28,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Mon",
+            "date": 1673280000,
+            "high": 34,
+            "low": 29,
+            "text": "Sleet",
+            "code": 18
+        },
+        {
+            "day": "Tue",
+            "date": 1673366400,
+            "high": 37,
+            "low": 28,
+            "text": "Mostly Cloudy",
+            "code": 28
+        },
+        {
+            "day": "Wed",
+            "date": 1673452800,
+            "high": 38,
+            "low": 29,
+            "text": "Partly Cloudy",
+            "code": 30
+        },
+        {
+            "day": "Thu",
+            "date": 1673539200,
+            "high": 39,
+            "low": 32,
+            "text": "Rain",
+            "code": 12
+        }
+    ]
+}
