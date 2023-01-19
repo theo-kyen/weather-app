@@ -3,7 +3,7 @@ import ForecastDay from "./ForecastDay";
 // represents the table for the 7-day forecast
 const ForecastDays = ({ data, getDate }) => {
   return (
-    <div className="div">
+    <div className="forecast--div">
       {data &&
         data.map((day, i) => {
           return (

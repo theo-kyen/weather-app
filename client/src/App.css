@@ -14,11 +14,65 @@ body {
 
 .app {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.div {
-    height: 200px;
-    margin: auto;
-    display: flex;
-    width: 90%;
+.current {
+  align-items: center;
+  margin: auto;
+  width: 20%;
+}
+
+.current > div > p {
+  position: relative;
+  bottom: 30px;
+}
+
+.day {
+  width: 100%;
+  border: 1px solid black;
+  height: 90%;
+}
+
+.day--header {
+    background-color: lightgray;
+    position: relative;
+    bottom: 16.5px;
+}
+
+.day--bold {
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 25px;
+}
+
+.buttons {
+  position: relative;
+  bottom: 10px;
+}
+
+.forecast--div {
+  height: 200px;
+  margin: auto;
+  display: flex;
+  width: 90%;
+}
+
+.past--days {
+  text-align: center;
+}
+
+.past--days--report {
+  display: grid;
+  column-gap: 10px;
+  grid-template-columns: auto auto auto auto auto auto auto;
+}
+
+.info > p {
+  position: relative;
+  bottom: 30px;
 }

@@ -3,15 +3,9 @@ import React from "react";
 // represents a single day of the forecast
 const ForecastDay = ({ date, high, low, weather }) => {
   return (
-    <div style={{ width: "100%", border: "1px solid black" }}>
-      <div
-        style={{
-          backgroundColor: "lightgray",
-          position: "relative",
-          bottom: "16.5px",
-        }}
-      >
-        <p style={{ fontWeight: "bold" }}>{date}</p>
+    <div className="day">
+      <div className="day--header">
+        <p className="day--bold">{date}</p>
       </div>
       <div style={{ position: "relative", bottom: "40px" }}>
         <p style={{ fontWeight: "bold", fontSize: "25px" }}>
